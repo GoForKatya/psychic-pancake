@@ -1,0 +1,27 @@
+{
+  "name": "psychic-pancake",
+  "version": "1.0.0",
+  "description": "A personal project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "debugging": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoForKatya/psychic-pancake.git"
+  },
+  "author": "Katya Grishanova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoForKatya/psychic-pancake/issues"
+  },
+  "homepage": "https://github.com/GoForKatya/psychic-pancake#readme",
+  "devDependencies": {
+    "@types/node": "^20.6.3"
+  },
+  "dependencies": {
+    "@playwright/test": "1.38.0"
+  }
+}
